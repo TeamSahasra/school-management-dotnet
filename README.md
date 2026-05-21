@@ -1,8 +1,15 @@
 school-management-dotnet/
-├── 01-csharp-console/       ← C# fundamentals
-├── 02-aspnet-mvc/           ← MVC with Razor
-├── 03-webapi/               ← REST API + JWT
-├── 04-efcore/               ← EF Core + migrations
-├── 05-dapper/               ← Dapper queries
-├── 06-react-frontend/       ← React UI
-└── 07-fullstack/            ← Complete app
+│
+├── 01-SchoolManagement.Console/        ← C# basics, OOP, LINQ, File I/O
+├── 02-SchoolManagement.ClassLibrary/   ← Reusable models, interfaces, services
+├── 03-SchoolManagement.MVC/            ← ASP.NET Core MVC + Razor Views
+├── 04-SchoolManagement.WebAPI/         ← REST API + JWT Auth + Swagger
+├── 05-SchoolManagement.SqlServer/      ← T-SQL scripts, stored procedures
+├── 06-SchoolManagement.EFCore/         ← Code First, Migrations, DbContext
+├── 07-SchoolManagement.Dapper/         ← Micro ORM, complex queries
+├── 08-SchoolManagement.React/          ← React frontend → calls WebAPI
+├── 09-SchoolManagement.Angular/        ← Angular frontend → calls WebAPI
+├── 10-SchoolManagement.FullStack/      ← Complete: React + API + EF Core + SQL
+│
+├── README.md                           ← Overview + link to nexcoding.in
+└── .gitignore
